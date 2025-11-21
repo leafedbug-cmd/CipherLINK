@@ -1,0 +1,20 @@
+{
+  "name": "cipherlink",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:testnet": "hardhat run scripts/deploy.ts --network polygonAmoy"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.5"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.22.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  }
+}
